@@ -25,6 +25,10 @@ Install dotfile requirements for ZSH
 EOF
 yes | sudo apt install zsh
 yes | sudo apt-get install -y fonts-font-awesome
+cd /tmp
+git clone https://github.com/ryanoasis/nerd-fonts
+cd nerd-fonts
+sudo ./install.sh
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
