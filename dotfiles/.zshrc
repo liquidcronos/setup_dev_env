@@ -12,6 +12,7 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 plugins=(
     zsh-autosuggestions
+    web-search
     k 
 )
 source ~/.oh-my-zsh/oh-my-zsh.sh

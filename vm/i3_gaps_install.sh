@@ -16,3 +16,8 @@ mkdir -p build && cd build/
 # The prefix and sysconfdir are, obviously, dependent on the distribution.
 ../configure --prefix=/usr/local --sysconfdir=/etc --disable-sanitizers
 make -j2
+
+
+yes | sudo apt-get install pavucontrol 
+git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf

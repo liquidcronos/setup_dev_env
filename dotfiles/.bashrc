@@ -3,11 +3,6 @@
 # for examples
 TERM=xterm-256color
 
-# Powerline configuration
-powerline-daemon -q
-POWERLINE_BASH_CONTINUATION=1
-POWERLINE_BASH_SELECT=1
-#. /home/jan/.local/lib/python3.8/site-packages/powerline/bindings/bash/powerline.sh
 
 # If not running interactively, don't do anything
 case $- in
