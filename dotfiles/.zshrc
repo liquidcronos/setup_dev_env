@@ -5,7 +5,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+#source ~/powerlevel10k/powerlevel10k.zsh-theme
+ZSH_THEME="powerlevel10k/powerlevel10k"
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
