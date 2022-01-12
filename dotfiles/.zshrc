@@ -7,14 +7,14 @@ fi
 
 #source ~/powerlevel10k/powerlevel10k.zsh-theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.oh-my-zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 plugins=(
     zsh-autosuggestions
     web-search
-    k 
+    k
 )
 source ~/.oh-my-zsh/oh-my-zsh.sh
 

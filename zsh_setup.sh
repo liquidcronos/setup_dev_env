@@ -3,14 +3,9 @@
 yes | sudo apt install zsh
 chsh -s $(which zsh)
 
-ln -sf /home/$USER/setup_dev_env/dotfiles/.zshrc /home/$USER/.zshrc
 
 yes | sudo apt-get install -y fonts-font-awesome
 
-cd /tmp
-git clone https://github.com/ryanoasis/nerd-fonts
-cd nerd-fonts
-sudo ./install.sh
 
 yes | sudo apt-get install fonts-powerline
 
@@ -26,3 +21,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 
 git clone https://github.com/supercrabtree/k ~/.oh-my-zsh/plugins/k
 
+ln -sf /home/$USER/setup_dev_env/dotfiles/.zshrc /home/$USER/.zshrc
