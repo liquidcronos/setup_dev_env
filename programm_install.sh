@@ -6,6 +6,8 @@ yes | sudo apt-get install thunderbird
 
 yes | sudo apt-get install htop
 
+yes | sudo apt install texmaker
+
 cd /tmp
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 yes | sudo apt install ./google-chrome-stable_current_amd64.deb
