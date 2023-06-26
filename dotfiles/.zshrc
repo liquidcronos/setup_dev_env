@@ -24,3 +24,8 @@ source ~/.oh-my-zsh/oh-my-zsh.sh
 #source ros
 source /opt/ros/noetic/setup.zsh
 source ~/catkin_ws/devel/setup.zsh
+
+source /opt/ros/humble/setup.bash
+source ~/ros2_ws/install/setup.bash
+source /opt/ros/humble/setup.bash
+
